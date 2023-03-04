@@ -6,12 +6,11 @@
 #define FACTORY_METHOD_CONCRETECREATOR1_HPP
 
 #include "../creator/Creator.hpp"
-#include "../../products/concrete1/ConcreteProduct1.hpp"
 
 class ConcreteCreator1 : public Creator
 {
 public:
-    Product* factoryMethod() const override;
+    Product *factoryMethod() const override;
 };
 
 

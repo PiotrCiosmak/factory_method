@@ -3,6 +3,7 @@
 //
 
 #include "ConcreteCreator1.hpp"
+#include "../../products/concrete1/ConcreteProduct1.hpp"
 
 Product *ConcreteCreator1::factoryMethod() const
 {
