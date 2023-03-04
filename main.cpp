@@ -7,8 +7,7 @@ void clientCode(const Creator &creator);
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
 }
 
 void clientCode(const Creator &creator)
