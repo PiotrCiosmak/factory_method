@@ -3,4 +3,4 @@ project(factory_method)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(factory_method main.cpp products/product/Product.hpp)
+add_executable(factory_method main.cpp products/product/Product.hpp products/concrete1/ConcreteProduct1.cpp products/concrete1/ConcreteProduct1.hpp)
